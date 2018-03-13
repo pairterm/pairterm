@@ -17,9 +17,13 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "~1.8.2",
+    "electron-rebuild": "^1.7.3"
   },
   "dependencies": {
+    "child_pty": "^3.0.7",
+    "default-shell": "^1.0.1",
+    "hterm-umdjs": "^1.2.0",
     "pty.js": "^0.3.1",
     "xterm": "^3.2.0"
   }
