@@ -39,6 +39,7 @@ t.onTerminalReady = function() {
     // React to size changes here.
     // Secure Shell pokes at NaCl, which eventually results in
     // some ioctls on the host.
+    pty.stdout.resize({columns: columns, rows: rows});
   };
 
   // You can call io.push() to foreground a fresh io context, which can
